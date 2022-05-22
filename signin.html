@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일정관리 서비스</title>
+    <meta name="author" content="jyj">
+    <meta name="keywords" content="일정관리, 다이어리, 성공일정, 업무 분배, 우선 순위">
+    <meta name="description" content="중요도와 긴급성을 기준으로 우선 순위를 세워 성공 일정을 만듭니다.">
+    <link rel="icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/signin.css">
+</head>
+<body>
+    <header>
+        <div class="inner">
+            <div class="container header">
+                <div class="header-left">
+                    <h1><a href="#none">성공일정</a></h1>
+                </div>
+                <div class="header-right">
+                    <div class="unsigned">
+                        <a class="sign-in" href="#noen">로그인</a>
+                        <a class="sign-up" href="#noen">회원가입</a>
+                    </div>
+                    <div class="signed hidden">
+                        <div class="dropdown">
+                            <div class="signed-txt">
+                                안녕하세요, <span id="name">홍길동</span>님
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                            <div class="dropdown-txt">
+                                <button id="sign-out">로그아웃</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="inner">
+            <div class="signin-box">
+                <h2>안녕하세요, <span class="blue">성공일정</span>입니다.</h2>
+                <div class="signin-form">
+                    <input type="text" placeholder="이메일" name="" id="email">
+                    <input type="password" placeholder="비밀번호" name="" id="pw">
+                    <input type="button" value="로그인" id="signin">
+                    <div class="signup-box">
+                        <a href="#" id="signup">회원가입</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="inner">
+            <div class="footer">
+                <div class="author">개발자 : 정윤정</div>
+                <div class="author-email">이메일 : busy-joj@gmail.com</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

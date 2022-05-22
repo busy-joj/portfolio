@@ -1,0 +1,24 @@
+:root{
+    --main-bg: #f4f4f4;
+    --main-color: #4aa8d8;
+}
+
+.blue{color:var(--main-color);}
+
+
+
+
+
+.signin-box{text-align:center;}
+.signin-box h2{font-size:1.8rem;margin:0 0 10px 0;}
+.signin-form input{width:50%;padding:10px 5px;min-width:300px;}
+.signin-form input + input{margin:5px 0 0 0;}
+.signin-form input[type="button"]{background-color: var(--main-color);border:none;color:#fff;cursor:pointer;}
+.signin-form input[type="button"]:hover{opacity:.8;}
+.signup-box{margin:5px 0 0 0;}
+.signup-box a{color:#666666 !important;}
+
+@media only all and (min-width:1200px){
+    .inner{max-width: 1200px;}
+}
+

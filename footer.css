@@ -1,0 +1,14 @@
+:root{
+    --main-bg: #f4f4f4;
+    --main-color: #4aa8d8;
+}
+
+footer{position:absolute;height:5rem;background: var(--main-bg);width:100%;}
+footer .inner{margin:0 auto;}
+.footer{display: flex;justify-content:center;font-size:1.6rem;height:5rem;align-items:center;}
+.footer div + div{margin:0 0 0 10px;}
+
+@media only all and (min-width:1200px){
+    .inner{max-width: 1200px;}
+}
+

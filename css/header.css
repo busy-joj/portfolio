@@ -1,0 +1,40 @@
+:root{
+    --main-bg: #f4f4f4;
+    --main-color: #4aa8d8;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+a{text-decoration:none !important; color: #000;}
+html{font-size:10px;}
+
+
+
+body{display:flex;flex-direction:column;height:100vh;}
+header{background: var(--main-bg);}
+main{flex:1;display:flex;justify-content:center;align-items:center;}
+footer{height:5rem;background: var(--main-bg);width:100%;}
+
+.hidden{display:none;}
+
+
+
+.inner{margin:0 auto;}
+.header{display:flex;justify-content:space-between;align-items: center;height:5rem;margin:0 1rem;}
+
+.header-left a{color: var(--main-color);}
+.header-right a{display:inline-block;font-size:1.6rem;margin-right:10px;}
+.header-right a:last-child{margin-right:0;}
+
+.dropdown{position:relative;}
+.signed-txt{font-size:1.4rem;cursor:pointer;}
+.dropdown-txt{display:none;position:absolute;width:100%;}
+.dropdown-txt button{width:100%;border:none;font-size:1.2rem;line-height:2.5;background-color: var(--main-color);color:#fff;cursor:pointer;}
+.dropdown-txt:hover button{background-color: var(--main-color);opacity:.8;}
+.dropdown:hover .dropdown-txt{display:block;}
+
+
+
+@media only all and (min-width:1200px){
+    .inner{max-width: 1200px;}
+}
+
