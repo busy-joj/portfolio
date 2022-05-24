@@ -1,10 +1,14 @@
 :root{
     --main-bg: #f4f4f4;
     --main-color: #4aa8d8;
+    --dark-gray: #666666;
+    --light-gray: #e3e3e3;
 }
+.blue{color:var(--main-color);}
 
 *{margin:0;padding:0;box-sizing:border-box;}
 a{text-decoration:none !important; color: #000;}
+ul,li,ol{list-style:none;}
 html{font-size:10px;}
 
 
@@ -36,5 +40,11 @@ footer{height:5rem;background: var(--main-bg);width:100%;}
 
 @media only all and (min-width:1200px){
     .inner{max-width: 1200px;}
+}
+
+
+
+@media only all and (max-width: 400px){
+    
 }
 
